@@ -37,7 +37,7 @@ f1 = open(latlongpath)
 line = f1.readline()
 count = 0
 #can set a counter here if you want to test out a couple images first otherwise this will run thru the whole csv file
-while line and count<5:
+while line:
 
     line = f1.readline()
 
