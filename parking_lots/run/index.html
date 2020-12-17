@@ -3,7 +3,7 @@
     <head>
         <script type="text/javascript" src="./html2canvas.js"></script>
         <script
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAD5sqUXPg_EwtcxoGPqHP2TOpu3dXLKIM&callback=initialize&libraries=&v=weekly"
+            src="https://maps.googleapis.com/maps/api/js?key={api key}&callback=initialize&libraries=&v=weekly"
             defer>
         </script>
 
@@ -17,15 +17,6 @@
                     disableDefaultUI:true,
                 });
             }
-            // function loadScript()
-            // {
-            //   var script = document.createElement("script");
-            //   script.type = "text/javascript";
-            //   script.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyAD5sqUXPg_EwtcxoGPqHP2TOpu3dXLKIM&sensor=false&callback=initialize";
-            //   document.body.appendChild(script);
-            // }
-
-            // window.onload = loadScript;
         </script>
 
     </head>
@@ -40,11 +31,6 @@
                 taintTest: true,
                 scale: 1,
             }).then(canvas => {document.body.appendChild(canvas)}); 
-            // html2canvas(document.getElementById('googleMap'),{
-            //     onrendered: function(canvas) {
-            //         document.body.appendChild(canvas);
-            //     },
-            // });
         }
         setTimeout("takeScreenshot()",5000);
     </script>
