@@ -24,4 +24,6 @@ contains the latitude and longitude of each parcel data entry
 
 3. Download Chrome Driver and put it in this directory. download link: https://sites.google.com/a/chromium.org/chromedriver/home
 
-4. run 'run.py'. This file will go through 'v1.csv', retrieve all the images and classifiy them into corresponding new folders. Just make sure you name the csv file as 'v1.csv' and have the same format as this current one or you can go into screenshotScript.py to modify your file path.
+4. add your google api key in index.html
+
+5. run 'run.py'. This file will go through 'v1.csv', retrieve all the images and classifiy them into corresponding new folders. Just make sure you name the csv file as 'v1.csv' and have the same format as this current one or you can go into screenshotScript.py to modify your file path.
